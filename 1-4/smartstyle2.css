@@ -1,0 +1,42 @@
+@media screen and (max-width: 767px) {
+    .header, .footer  {
+        width: 300px;
+    }
+
+    .left {
+        width: 100px;
+    }
+    .middle {
+        width:125px;
+    }
+
+    .center-upper, .center {
+        width: 125px;
+    }
+
+    .center-lower {
+    }
+
+    .right {
+        width:75px;
+    }
+
+}
+
+@media screen and (max-width: 479px)  {
+    .wrapper {
+        overflow: hidden;
+        width: 150px;
+        margin: 0 auto;
+
+    }
+
+    .center-upper, .center {
+        width: 150px;
+    }
+
+    .right, .left {
+        width: 150px;
+        height: 100px;
+    }
+}
