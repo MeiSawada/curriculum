@@ -1,0 +1,28 @@
+@media screen and (max-width:767px) {
+    .wrapper {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .right {
+        width: 100px;
+    }
+
+
+}
+
+@media screen and (max-width: 479px) {
+    .wrapper {
+        overflow: hidden;
+        width: 150px;
+        margin: 0 auto;
+
+    }
+
+    .right {
+        width: 150px;
+        overflow: hidden;
+    }
+
+    
+}
